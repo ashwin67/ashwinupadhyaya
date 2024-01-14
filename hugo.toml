@@ -2,7 +2,7 @@ title = "Ashwin's Blog"
 baseURL = "https://ashwinupadhyaya.com"
 languageCode = "en-us"
 theme = "ananke"
-#resourceDir = "../resources"
+#resourceDir = "../resources" 
 
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
