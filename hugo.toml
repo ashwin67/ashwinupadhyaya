@@ -18,6 +18,7 @@ theme = "PaperMod"
   defaultTheme = "auto"
   ShowReadingTime = true
   ShowCodeCopyButtons = true
+  mainSections = ["posts"] 
 
   # Social icons (PaperMod expects this)
   [[params.socialIcons]]
@@ -26,3 +27,8 @@ theme = "PaperMod"
   [[params.socialIcons]]
     name = "linkedin"
     url  = "https://www.linkedin.com/in/ashwinupadhyaya/"
+
+[[menu.main]]
+  name = "Other"
+  url  = "/other/"
+  weight = 50
