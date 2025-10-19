@@ -1,0 +1,28 @@
+baseURL = "https://ashwinupadhyaya.com"
+languageCode = "en"
+title = "Ashwin Upadhyaya"
+theme = "PaperMod"
+
+# modern pagination key (replaces deprecated 'paginate')
+[pagination]
+  pagerSize = 10
+
+# enable raw HTML in Markdown if you used it previously
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# recommended: RSS, sitemap are auto; add your params below
+[params]
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+
+  # Social icons (PaperMod expects this)
+  [[params.socialIcons]]
+    name = "github"
+    url  = "https://github.com/ashwin67"
+  [[params.socialIcons]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/ashwinupadhyaya/"

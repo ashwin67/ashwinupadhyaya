@@ -1,0 +1,33 @@
+# Hugo output
+/public/
+/resources/
+/hugo_stats.json
+
+# Build artifacts
+*.bak
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Node / npm (only if your theme uses it)
+node_modules/
+package-lock.json
+npm-debug.log*
+
+# OS / editor files
+.idea/
+.vscode/
+*.code-workspace
+
+# Log files
+*.log
+
+# Hugo local cache (since 0.128)
+.cache/
+
+# Lock files (not used in this setup)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+go.sum
